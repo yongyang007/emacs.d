@@ -171,7 +171,11 @@
 ;;----------------------------------------------------------------------------
 (require 'init-local nil t)
 
-
+;; load configs for me
+(require 'init-w3m)
+(require 'init-scheme)
+(require 'init-window-numbering)
+(require 'init-clipboard)
 
 (provide 'init)
 
